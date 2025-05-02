@@ -1,0 +1,91 @@
+.event-card {
+    min-width: 150px;
+    max-width: 170px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  
+  .event-image {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .event-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .favorite-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .event-info {
+    padding: 10px;
+  }
+  
+  .event-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .event-venue {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+  
+  .event-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-tag {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .event-friends {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .friend-avatars {
+    display: flex;
+    margin-right: 5px;
+  }
+  
+  .friend-avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    margin-right: -5px;
+  }

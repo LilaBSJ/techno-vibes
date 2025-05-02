@@ -1,0 +1,73 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #121212;
+  --accent-color: #f0f0f0;
+  --text-color: #ffffff;
+  --text-secondary: #a0a0a0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-bottom: 70px; /* Pour laisser de l'espace pour la barre de navigation */
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  padding: 0 15px;
+}
+
+/* Simuler les icônes - Remplacer par une bibliothèque d'icônes dans un projet réel */
+.icon-location:before {
+  content: "📍";
+}
+
+.icon-calendar:before {
+  content: "📅";
+}
+
+.icon-heart:before {
+  content: "♡";
+}
+
+.icon-play:before {
+  content: "▶";
+}
+
+.icon-lightning:before {
+  content: "⚡";
+}
+
+.icon-search:before {
+  content: "🔍";
+}
+
+.icon-ticket:before {
+  content: "🎟";
+}
+
+.icon-profile:before {
+  content: "👤";
+}
